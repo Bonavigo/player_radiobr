@@ -1,0 +1,101 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main {
+	background: linear-gradient(2deg, rgb(102, 148, 36), rgb(57, 31, 150));
+ 	flex: 1 0 auto;
+}
+.div_radio {
+	margin: 0 auto 0 auto;
+	width: 269px;
+	height: 60px;
+}
+.wrapper_radio {
+	border-radius: 3px;
+	width: 269px;
+	height: 60px;
+	background: url(https://exbrhbofc.net/arquivos/2018/05/fundoplayer_2018_exbr.png) no-repeat, #558B2F
+}
+.upper_radio {
+	text-align: right;
+	margin-bottom: 5px
+}
+.buttons_radio {
+	background: #B3BDB1;
+	border-radius: 10px;
+	color: #5A6558;
+	font-size: 11px;
+	padding: 2px 6px;
+	display: inline-block
+}
+.buttons_radio:hover,
+.buttons_radio:active {
+	color: #03A63F
+}
+.controles {
+	float: left;
+	margin-left: 100px
+}
+.marquee_wrapper {
+	width: 165px;
+	height: 19px
+}
+.marquee {
+	font-size: 12px;
+	color: #FFF
+}
+.wrapper_btn_controles {
+	height: 41px
+}
+.button_controle {
+	margin: 4px 0 !important;
+	height: 80% !important;
+	min-width: 30px !important;
+	border-radius: 3px !important;
+	background: #FFF !important;
+	border: none;
+	outline: 0;
+	cursor: pointer;
+	vertical-align: initial !important
+}
+.button_controle:active {
+	background: #F1F4EE !important
+}
+.button_controle i {
+	font-size: 12px
+}
+#player_audio {
+	display: none
+}
+.img_center {
+	display: block;
+	width: auto;
+	max-width: 320px;
+	height: auto;
+	margin: 0 auto;
+}
+@media (max-width: 374px) {
+	.infos_radio {
+		max-width:300px !important;
+	}
+}
+@media (min-width: 375px) {
+	.infos_radio {
+		max-width:320px;
+	}
+}
+@media (min-width: 425px) {
+	.infos_radio {
+		max-width:390px;
+	}
+}
+.infos_radio {
+	margin: 25vh auto 10vh auto !important;
+	width:auto !important;
+	border-radius:15px;
+	color:#FFF;
+	padding:40px 10px 40px 110px;
+	image-rendering:pixelated;
+}
