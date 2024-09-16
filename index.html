@@ -37,7 +37,7 @@
 						<button class="button_controle waves-effect" id="btn_control" onclick="player()"><i id="icon_control" class="fas fa-play"></i></button>
 						<button class="button_controle waves-effect"><i class="fas fa-volume-up"></i> <i class="fas fa-minus" onclick="abaixar()"></i> <i class="fas fa-plus" onclick="aumentar()"></i></button>
 						<button class="button_controle waves-effect" id="btn_control" onclick="refresh_radio()"><i class="fas fa-sync"></i></button>
-						<audio id="player_audio" data-radio="rbr" data-status="pausada" src="https://ssl.painelcast.com:6964/;"></audio>
+						<audio id="player_audio" data-radio="rbr" data-status="pausada" src="LINK_DA_TRANSMISSÃO"></audio>
 					</div>
 				</div>
 			</div>
