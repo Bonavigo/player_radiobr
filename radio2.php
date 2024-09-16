@@ -92,7 +92,7 @@
 
 		}
 		var funcao_radio = function () {
-			let data = easyAJAX.GET('https://radio.exbrhbofc.net/api.php', success, error);
+			let data = easyAJAX.GET('INSIRA_AQUI_API_COM_DADOS', success, error);
 		}
 		setInterval(funcao_radio, 2000);
 		funcao_radio();
